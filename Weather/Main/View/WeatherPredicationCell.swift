@@ -23,7 +23,6 @@ class WeatherPredicationCell: UITableViewCell {
     }
     
     internal func weatherTemperatureTitle(value: String) {
-        
         DispatchQueue.main.async {
             self.weatherTemperatureLabel?.text = value + " °C"
             self.weatherTemperatureLabel?.font = UIFont(name: "Optima", size: 20)
